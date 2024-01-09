@@ -189,7 +189,7 @@ margin-right: 100px;
     flex-shrink: 0;
     background-image:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%),url(resources/1920x1080-white-solid-color-background.jpg);
     border-radius: 20PX;
-    margin-bottom: 10%; 
+    /* margin-bottom: 10%;  */
 }
 
 .sec-content{
@@ -199,7 +199,7 @@ margin-right: 100px;
    padding: 50px ;
    
 }
-.sec p{
+.sec h3{
     text-align: center;
     font-size: 32px;
     font-weight: 600;
@@ -233,4 +233,91 @@ margin-right: 100px;
     font-weight: 700;
 }
 
+
+.NewOffer{
+    display: flex;
+width: 1900px;
+background-color: #FFF;
+align-items: center;
+padding: 300px;
+margin-top: 0px;
+
+}
+
+.collect h6{
+    color: #F00;
+text-align: left;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+
+.collect h1{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+text-align: left;
+}
+
+.collect p{
+color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+text-align: left;
+width: 420px;
+
+
+}
+.eimg{
+width: 364.844px;
+height: 364.844px;
+/* flex-shrink: 0; */
+/* background: url(<path-to-image>), lightgray -91.279px 0px / 150.038% 100% no-repeat; */
+border-radius: 50%;
+margin: auto;
+padding : 15px;
+border: 12px solid #FF0000;
+
+
+}
+
+.myoffer h2{
+
+color: #F00;
+
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-left: 20%;
+}
+
+.myoffer p{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+width: 400px;
+padding-left: 20%;
+}
+.pic{
+    width: 140px;
+height: 140px;
+flex-shrink: 0;
+margin: 100px;
+margin-top: 20px;
+}
 
