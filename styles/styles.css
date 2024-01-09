@@ -529,14 +529,14 @@ footer {
     justify-content: center;
   }
   
-  .footer-info {
+  .my-info {
     display: flex;
     gap: 500px;
     justify-content: space-between;
     align-items: center;
   }
   
-  .footer-info p {
+  .my-info p {
     color: #FFF;
     font-family: Inter;
     font-size: 22px;
@@ -544,7 +544,7 @@ footer {
     line-height: 35px;
   }
   
-  .footer-contacts {
+  .my-contacts {
     display: flex;
     gap: 15px;
     justify-content: start;
@@ -557,11 +557,11 @@ footer {
     margin: 45px 0;
   }
   
-  .social-links {
+  .social{
     margin: 0 auto;
   }
   
-  .social-links img {
+  .social img {
     width: 60px;
     margin-left: 22px;
   }
